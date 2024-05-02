@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Productos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css"> 
+    <link rel="stylesheet" href="../css/productos.css"> 
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <h1 class="tutulo1">Drogueria</h1>
+            <p class="descripcion">Consulta los medicamentos registrados en el sistema</p>
+            <nav class="menu">
+                <a  
+                    href="../index.html" 
+                    class="itemMenu1"
+                >Registrar un
+                nuevo producto</a>
+                <a 
+                    href=""  
+                    class="itemMenu2"
+                >Buscar un producto</a>
+            </nav>
+        </aside> <!--sidebar-->
+        <main class="principal">          
+
+            
+            <h2 class="titulo-principal">Productos</h2>
+            <section style="padding-top: 0.2rem;padding-bottom: 0.2rem; overflow: auto;">
+                <div class="contenedor-cards" id="listado-articulos">               
+                                                       
+                      
+                </div>
+               <div class="paginador">
+                    <div class="contenedor-botones">
+                        <!-- Botón para ir a la página anterior -->
+                        <button id="atras" class="btn-pag btn-atras">&#171;</button>
+                        <!-- Información de la página actual -->
+                        <span id="informacion-pagina"></span>
+                        <!-- Botón para ir a la página siguiente -->
+                        <button id="siguiente" class="btn-pag btn-sgte">&#187;</button>
+                    </div>
+               </div>
+            </section>
+            <template id="plantilla-articulo">
+                <div class="card">
+                    <img id="img-medicamento" class="w-full" src="" width="200" height="200">
+                    <div class="card-descripcion">
+                        <h2 id="nombre"></h2>
+                        <p id="categoria"></p>
+                        <p id="precio"></p>
+                    </div>
+                </div>
+            </template>
+        </main>
+    </div>
+    <script src="../js/productos.js" type="module"></script>
+</body>
+</html>

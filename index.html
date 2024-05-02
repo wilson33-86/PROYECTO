@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drogueria</title>  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/registro.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Registro de medicamentos</h1>
+        <p class="desc">Esta seccion de la drogueria puedes registrar un nuevo medicamento</p>
+    </header>
+    <div class="container">
+        <main id="contenido" class="principal">
+            <div class="box">
+                <form id="formulario">
+                  
+                    <div class="campo">
+                        <label                           
+                            htmlFor="nombre"
+                        >Nombre:</label>
+                        <input 
+                            id="nombre"
+                            type="text"                           
+                            placeholder="Nombre del Medicamento"
+                            name="nombre"
+                        
+                        />
+                    </div>
+                    <div class="campo">
+                        <label                           
+                            htmlFor="categoría"
+                        >Categoría:</label>
+                        <select id="categoria" name="categoria">
+                            <option value="0">----Seleccione----</option>
+                            <option value="1">Analgésicos</option>
+                            <option value="2">Antiinfecciosos</option>
+                            <option value="3">Antiinflamatorio</option>
+                            <option value="4">Antibióticos</option>
+                            <option value="5">Antidiarreicos </option>
+                            
+                        </select>
+                    </div>
+        
+                    <div class="campo">
+                        <label                          
+                            htmlFor="imagen"
+                        >Imagen:</label>
+                        <input type="file" id="imagen" name="imagen" accept="image/png, image/jpeg" />
+                    </div>
+
+                    <div class="campo">
+                        <label                           
+                            htmlFor="codigo"
+                        >Código:</label>
+                        <input 
+                            id="codigo"
+                            type="text"                            
+                            placeholder="código del Medicamento"
+                            name="codigo"                           
+                        />
+                    </div>
+
+                    <div class="campo">
+                        <label                           
+                            htmlFor="precio"
+                        >precio:</label>
+                        <input 
+                            id="precio"
+                            type="text"                            
+                            placeholder="Precio del Medicamento"
+                            name="precio" 
+                            min="100"                           
+                        />
+                    </div>
+
+                    <div class="campo">
+                        <label                           
+                            htmlFor="cantidad"
+                        >Cantidad:</label>
+                        <input 
+                            id="cantidad"
+                            type="number"                            
+                            placeholder="La Cantidad del Medicamento"
+                            name="cantidad" 
+                            min="1"                          
+                        />
+                    </div>      
+
+                    <div class="campo">
+                        <label                           
+                            htmlFor="presentacion"
+                        >Presentación:</label>
+                        <select id="presentacion" name="presentacion">
+                            <option value="0" selected disabled>----Seleccione----</option>
+                            <option value="1">CAJA X 1 AMPOLLA</option>
+                            <option value="2">CAJA X 4 TAB</option> 
+                            <option value="3">CAJA X 6 TAB</option>
+                            <option value="4">CAJA X 8 TAB</option> 
+                            <option value="5">CAJA X 50 TAB</option>    
+                            <option value="6">CAJA X 10 TAB</option> 
+                            <option value="7">CAJA X 12 TAB</option> 
+                            <option value="8">CAJA X 20 TAB</option>  
+                            <option value="9">CAJA X 30 TAB</option>                          
+                            <option value="10">FRASCO X 90ML</option>  
+                            <option value="11">FRASCO X 100ML</option>   
+                            <option value="12">FRASCO X 120ML</option>                          
+                            <option value="13">POLVO PARA SOLUCIÓN INYECTABLE</option>
+                            <option value="14">CAJA X 10 CAP</option>
+                            <option value="15">CAJA X 30 CAP</option>
+                            <option value="16">CAJA X 100 CAP</option>
+                        </select>
+                    </div>   
+                    
+                    <div class="campo">
+                        <label                           
+                            htmlFor="concentracion"
+                        >Concentracion</label>
+                        <input 
+                            id="concentracion"
+                            type="number"                            
+                            placeholder="Concentracion del Medicamento"
+                            name="concentracion" 
+                            min="1"                           
+                        />
+                    </div>
+
+                    <div class="campo">
+                        <label                           
+                            htmlFor="medida"
+                        >Unidad de medida:</label>
+                        <select id="medida" name="medida">
+                            <option value="0" selected disabled>----Seleccione----</option>
+                            <option value="MG">MG</option>
+                            <option value="GR">GR</option>   
+                            <option value="CC">CC</option>   
+                            <option value="ML">ML</option>  
+                            <option value="IU">IU</option> 
+                                                
+                            
+                        </select>
+                    </div> 
+                                     
+                    <div>
+                        <button  type="submit" class="btn btn-registrar">Registrar</button>
+                        <button id="resetBtn" class="btn btn-limpiar">Limpiar Campos</button>
+                    </div>
+                    <a href="/paginas/productos.html" style="display: block; margin-top: 1rem;">Ir Listado de Productos</a>
+                </form>
+            </div>
+           
+        </main>
+    </div>
+
+    <script src="js/app.js" type="module"></script>
+
+</body>
+</html>

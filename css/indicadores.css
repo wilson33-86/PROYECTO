@@ -1,0 +1,39 @@
+header{
+    background-color:rgb(30, 74, 155);
+    padding: 0.1rem;
+    margin: 0;
+}
+
+.container { 
+    max-width: 50rem;
+    margin: 0 auto;  
+    margin-top: 3rem;
+}
+
+.principal{
+  background-color: white;  
+  padding: 2rem; 
+  border-radius: 1rem;
+  box-shadow: 20px 20px 20px 10px rgba(0, 0, 0, 0.2);
+  font-size: 1.1rem;
+}
+
+.btn-volver{
+    background-color:cornflowerblue;
+    text-decoration: none;
+}
+
+.btn-volver:hover{
+    background-color:rgb(30, 74, 155);
+}
+
+.descHeader{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.indicador{
+    padding-bottom: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
