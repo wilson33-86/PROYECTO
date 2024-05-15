@@ -48,7 +48,7 @@ const datosObj = {
     // productos = [...productos,datosObj]       
     // console.log('Productos: ',productos)
     function datos(e){     
-        datosObj[e.target.name] = e.target.value; 
+        datosObj[e.target.name] = (e.target.value).trim(); 
      
         // console.log(datosObj)
     }

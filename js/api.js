@@ -24,7 +24,7 @@ export const getMedicamentos = async ()=>{
     try {
         const res   = await fetch(url);
         const datos = await res.json();
-        console.log(datos)
+        // console.log(datos)
         return datos;
     } catch (error) {
         console.log(error);

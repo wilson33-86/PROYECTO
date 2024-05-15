@@ -21,6 +21,7 @@ aside{
     padding-left: 1.25rem;
     padding-right: 1.25rem;
     background-color:rgb(30, 74, 155);
+    width: 30rem;;
     
 }
 
@@ -36,9 +37,10 @@ aside{
     overflow: scroll;
 }
 
-@media (min-width: 768px) {
-    .aside {
-        width: 15%;
+@media (max-width: 768px) {
+    aside{
+        width: unset;
+        
     }
 
     .principal{
@@ -169,7 +171,7 @@ aside{
 }
 
 
-#precio{
+.precio{
   font-size: 1.5rem;  
   color: rgb(30, 74, 155);
   font-weight: 700;

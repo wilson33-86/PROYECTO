@@ -9,7 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css"> 
-    <link rel="stylesheet" href="../css/productos.css"> 
+    <link rel="stylesheet" href="../css/productos.css">
+    <link rel="stylesheet" href="../css/buscador.css">     
+    <link href="../css/spinner.css"  rel="stylesheet"/>
 </head>
 <body>
     <div class="container">
@@ -19,12 +21,12 @@
             <nav class="menu">
                 <a  
                     href="../index.html" 
-                 
+                   
                 >Registrar un
                 nuevo producto</a>
                 <a 
                     href="../paginas/buscador.html"  
-                   
+                  
                 >Buscar un producto</a>
             </nav>
             <div class="iconos">
@@ -45,18 +47,99 @@
                      </svg>
                 </span>
              </div>
-           
         </aside> <!--sidebar-->
         <main class="principal">          
 
             
-            <h2 class="titulo-principal">Productos</h2>
-            <section style="padding-top: 0.2rem;padding-bottom: 0.2rem; overflow: auto;">
-                <div class="contenedor-cards" id="listado-articulos">               
-                                                       
-                      
+            <h2 class="titulo-principal">Buscador de Medicamentos</h2>
+            <form id="formulario" class="formulario-buscar">
+                  
+                <div class="campo">
+                    <label                           
+                        htmlFor="nombre"
+                    >Nombre:</label>
+                    <input 
+                        id="nombre"
+                        type="text"                           
+                        placeholder="Medicamento"
+                        name="nombre"                    
+                    />
                 </div>
-               <div class="paginador">
+                <div class="campo">
+                    <label                           
+                        htmlFor="categoría"
+                    >Categoría:</label>
+                    <select id="categoria" name="categoria">
+                        <option value="0">----Seleccione----</option>
+                        <option value="1">Analgésicos</option>
+                        <option value="2">Antiinfecciosos</option>
+                        <option value="3">Antiinflamatorio</option>
+                        <option value="4">Antibióticos</option>
+                        <option value="5">Antidiarreicos </option>
+                        
+                    </select>
+                </div>
+                <div class="campo">
+                    <label                           
+                        htmlFor="presentacion"
+                    >Presentación:</label>
+                    <select id="presentacion" name="presentacion">
+                        <option value="0" selected disabled>----Seleccione----</option>
+                        <option value="1">CAJA X 1 AMPOLLA</option>
+                        <option value="2">CAJA X 4 TAB</option> 
+                        <option value="3">CAJA X 6 TAB</option>
+                        <option value="4">CAJA X 8 TAB</option> 
+                        <option value="5">CAJA X 50 TAB</option>    
+                        <option value="6">CAJA X 10 TAB</option> 
+                        <option value="7">CAJA X 12 TAB</option> 
+                        <option value="8">CAJA X 20 TAB</option>  
+                        <option value="9">CAJA X 30 TAB</option>                          
+                        <option value="10">FRASCO X 90ML</option>  
+                        <option value="11">FRASCO X 100ML</option>   
+                        <option value="12">FRASCO X 120ML</option>                          
+                        <option value="13">POLVO PARA SOLUCIÓN INYECTABLE</option>
+                        <option value="14">CAJA X 10 CAP</option>
+                        <option value="15">CAJA X 30 CAP</option>
+                        <option value="16">CAJA X 100 CAP</option>
+                    </select>
+                </div>  
+              <div class="botones-filtros">               
+                <button id="resetFiltros" class="botones btn-limpiar-filtros">Limpiar Filtros</button>
+                <button type="submit" class="botones btn-buscar">Buscar</button>
+            </div>
+            </form>
+           
+            <section style="padding-top: 0.2rem;padding-bottom: 0.2rem;text-align: center;" id="seccionData">
+                <div class="spinner-load" >
+                    <div class="sk-chase ocultar" id="spinner">
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                      </div>
+                </div>
+                
+                <table class="table ocultar" id="tablaDatos">
+                    <thead>
+                        <tr>
+                          
+                            <th>Nombre</th>
+                            <th>Imagen</th>
+                            <th>Categoria</th>                          
+                            <th>Precio</th>
+                            <th>Presentación</th>
+                            <th>Código</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody id="listado-medicamentos">
+                       
+                    </tbody>
+                </table>
+                
+               <div class="paginador ocultar" id="paginador">
                     <div class="contenedor-botones">
                         <!-- Botón para ir a la página anterior -->
                         <button id="atras" class="btn-pag btn-atras">&#171;</button>
@@ -68,17 +151,14 @@
                </div>
             </section>
             <template id="plantilla-articulo">
-                <div class="card">
-                    <img id="img-medicamento" width="200" height="200">
-                    <div class="card-descripcion">
-                        <h2 id="nombre"></h2>
-                        <p id="categoria"></p>
-                        <p id="precio" class="precio"></p>
-                    </div>
-                </div>
+               
             </template>
+            <div class="botones-result ocultar" id="btns-result">
+                <a class="botones volver-medicine" href="productos.html">Regresar a Medicamentos</a>
+                <a id="limpiar-busqueda" class="botones Limpiar-busqueda" href="productos.html">Limpiar búsqueda</a>
+            </div>
         </main>
     </div>
-    <script src="../js/productos.js" type="module"></script>
+    <script src="../js/buscador.js" type="module"></script>
 </body>
 </html>

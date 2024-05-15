@@ -97,7 +97,7 @@ let paginaActual = 1;
           const miArticulo = plantillaArticulo.cloneNode(true);
           // Rellenamos los datos del nuevo artículo
           const nombre_medicamento = miArticulo.querySelector("#nombre");
-          nombre_medicamento.textContent = datosArticulo.nombre+" "+datosArticulo.concentracion+" "+datosArticulo.medida+" "+datosArticulo.presentacion;
+          nombre_medicamento.textContent = datosArticulo.nombre.toUpperCase()+" "+datosArticulo.concentracion+" "+datosArticulo.medida+" "+datosArticulo.presentacion;
           const categoria = miArticulo.querySelector("#categoria");
           categoria.textContent = datosArticulo.categoria;
           const imagen = miArticulo.querySelector("#img-medicamento");

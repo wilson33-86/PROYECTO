@@ -1,7 +1,7 @@
 {
   "medicamentos": [
     {
-      "nombre": "Acetaminofen Forte",
+      "nombre": "ACETAMINOFEN FORTE",
       "categoria": "Analgésicos",
       "imagen": "../img/acetaminofen.jpg",
       "codigo": "001ACEta",
@@ -13,7 +13,7 @@
       "id": 1
     },
     {
-      "nombre": "Dipirona",
+      "nombre": "DIPIRONA",
       "categoria": "Antiinflamatorio",
       "imagen": "../img/dipirona.jpg",
       "codigo": "002DIPir",
@@ -25,7 +25,7 @@
       "id": 2
     },
     {
-      "nombre": "Lomotil",
+      "nombre": "LOMOTIL",
       "categoria": "Antidiarreicos",
       "imagen": "../img/lomotil.jpg",
       "codigo": "003LOMot",
@@ -37,7 +37,7 @@
       "id": 3
     },
     {
-      "nombre": "Metocarbamol",
+      "nombre": "METOCARBAMOL",
       "categoria": "Analgésicos",
       "imagen": "../img/metocarbamol.jpg",
       "codigo": "004METoc",
@@ -49,7 +49,7 @@
       "id": 4
     },
     {
-      "nombre": "Ibuprofeno",
+      "nombre": "IBUPROFENO",
       "categoria": "Analgésicos",
       "imagen": "../img/ibuprofeno.webp",
       "codigo": "005IBUpr",
@@ -121,7 +121,7 @@
       "id": 10
     },
     {
-      "nombre": "Amoxicilina",
+      "nombre": "AMOXICILINA",
       "categoria": "Antibióticos",
       "imagen": "../img/amoxicilina-tableta.webp",
       "codigo": "011AMOxi",
@@ -133,7 +133,7 @@
       "id": 11
     },
     {
-      "nombre": "Penicilina",
+      "nombre": "PENICILINA",
       "categoria": "Antibióticos",
       "imagen": "../img/penicilina.webp",
       "codigo": "012PENic",
@@ -145,7 +145,7 @@
       "id": 12
     },
     {
-      "nombre": "Naproxeno",
+      "nombre": "NAPROXENO",
       "categoria": "Analgésicos",
       "imagen": "../img/Naproxeno.webp",
       "codigo": "013NAPro",
@@ -157,7 +157,7 @@
       "id": 13
     },
     {
-      "nombre": "Clotrimazol",
+      "nombre": "CLOTRIMAZOL",
       "categoria": "Antiinfecciosos",
       "imagen": "../img/clotrimazol.webp",
       "codigo": "014CLOtr",
@@ -169,7 +169,7 @@
       "id": 14
     },
     {
-      "nombre": "Noxpirin",
+      "nombre": "NOXPIRIN",
       "categoria": "Analgésicos",
       "imagen": "../img/noxpirin.webp",
       "codigo": "015NOXpi",
@@ -181,7 +181,7 @@
       "id": 15
     },
     {
-      "nombre": "Eritromicina",
+      "nombre": "ERITROMICINA",
       "categoria": "Antiinfecciosos",
       "imagen": "../img/eritromicina.webp",
       "codigo": "016ERItr",
@@ -193,7 +193,7 @@
       "id": 16
     },
     {
-      "nombre": "Isotretinoina",
+      "nombre": "ISOTRETINOINA",
       "categoria": "Antibióticos",
       "imagen": "../img/isotretinoina.webp",
       "codigo": "017ISOtr",
@@ -205,7 +205,7 @@
       "id": 17
     },
     {
-      "nombre": "Metocarbomol",
+      "nombre": "METOCARBAMOL",
       "categoria": "Analgésicos",
       "imagen": "../img/metocarbamol-500.webp",
       "codigo": "018METoc",
@@ -217,7 +217,7 @@
       "id": 18
     },
     {
-      "nombre": "Acetaminofen-Codeina",
+      "nombre": "ACETAMINOFEN-CODEINA",
       "categoria": "Analgésicos",
       "imagen": "../img/Acetaminofen-Codeina Fosfato.webp",
       "codigo": "019ACEco",
@@ -229,7 +229,7 @@
       "id": 19
     },
     {
-      "nombre": "Ibuprofeno",
+      "nombre": "IBUPROFENO",
       "categoria": "Analgésicos",
       "imagen": "../img/ibuprofeno-400.webp",
       "codigo": "020IBUpr",
@@ -241,7 +241,7 @@
       "id": 20
     },
     {
-      "nombre": "Ibuprofeno",
+      "nombre": "IBUPROFENO",
       "categoria": "Analgésicos",
       "imagen": "../img/ibuprofeno-600.webp",
       "codigo": "021IBUpr",
@@ -253,7 +253,7 @@
       "id": 21
     },
     {
-      "nombre": "Ibuprofeno oral",
+      "nombre": "IBUPROFENO ORAL",
       "categoria": "Analgésicos",
       "imagen": "../img/ibuprofeno oral.webp",
       "codigo": "022IBUor",
@@ -265,7 +265,7 @@
       "id": 22
     },
     {
-      "nombre": "Novalgina",
+      "nombre": "NOVALGINA",
       "categoria": "Analgésicos",
       "imagen": "../img/novalgina.webp",
       "codigo": "023NOVal",
@@ -277,7 +277,7 @@
       "id": 23
     },
     {
-      "nombre": "Espasmobill",
+      "nombre": "ESPASMOBILL",
       "categoria": "Analgésicos",
       "imagen": "../img/espasmobil.webp",
       "codigo": "024ESPas",
@@ -289,7 +289,7 @@
       "id": 24
     },
     {
-      "nombre": "Ampicilina",
+      "nombre": "AMPICILINA",
       "categoria": "Antibióticos",
       "imagen": "../img/ampicilina.webp",
       "codigo": "025AMPic",
@@ -301,7 +301,7 @@
       "id": 25
     },
     {
-      "nombre": "Ampicilina",
+      "nombre": "AMPICILINA",
       "categoria": "Antibióticos",
       "imagen": "../img/ampicilina-100.webp",
       "codigo": "026AMPic",
@@ -313,7 +313,7 @@
       "id": 26
     },
     {
-      "nombre": "Ciprofloxacino",
+      "nombre": "CIPROFLOXACINO",
       "categoria": "Antibióticos",
       "imagen": "../img/ciprofloxacino.webp",
       "codigo": "027CIPro",
@@ -325,7 +325,7 @@
       "id": 27
     },
     {
-      "nombre": "Aspirina efervecente",
+      "nombre": "ASPIRINA EFERVECENTE",
       "categoria": "Antiinflamatorio",
       "imagen": "../img/aspirina.webp",
       "codigo": "028ASPir",
@@ -337,7 +337,7 @@
       "id": 28
     },
     {
-      "nombre": "Cardioaspirina",
+      "nombre": "CARDIOASPIRINA",
       "categoria": "Antiinflamatorio",
       "imagen": "../img/cardioaspirina.webp",
       "codigo": "029CARdi",
@@ -349,7 +349,7 @@
       "id": 29
     },
     {
-      "nombre": "Loperamida",
+      "nombre": "LOPERAMIDA",
       "categoria": "Antidiarreicos",
       "imagen": "../img/loperamida.webp",
       "codigo": "030LOPer",
@@ -361,7 +361,7 @@
       "id": 30
     },
     {
-      "nombre": "Diclofenalco",
+      "nombre": "DICLOFENACO",
       "categoria": "Antiinflamatorio",
       "imagen": "../img/diclofenalco-tramadol.webp",
       "codigo": "031DIClo",
@@ -373,7 +373,7 @@
       "id": 31
     },
     {
-      "nombre": "Naproxeno",
+      "nombre": "NAPROXENO",
       "categoria": "Analgésicos",
       "imagen": "../img/naproxeno-250.webp",
       "codigo": "032NAPro",
@@ -383,6 +383,222 @@
       "concentracion": "250",
       "presentacion": "CAJA X 10 CAP",
       "id": 32
+    },
+    {
+      "nombre": "TROMIX",
+      "categoria": "Analgésicos",
+      "imagen": "../img/TROMIX.webp",
+      "codigo": "033TROmi",
+      "precio": "95000",
+      "cantidad": "10",
+      "medida": "MG",
+      "concentracion": "500",
+      "presentacion": "CAJA X 6 TAB",
+      "id": 33
+    },
+    {
+      "nombre": "LEVOTIROXINA",
+      "categoria": "Analgésicos",
+      "imagen": "../img/Levotiroxina.webp",
+      "codigo": "034LEVti",
+      "precio": "19700",
+      "cantidad": "7",
+      "medida": "MG",
+      "concentracion": "100",
+      "presentacion": "CAJA X 30 TAB",
+      "id": 34
+    },
+    {
+      "nombre": "PIROXICAM",
+      "categoria": "Analgésicos",
+      "imagen": "../img/PIROXICAM.webp",
+      "codigo": "035PIRox",
+      "precio": "5500",
+      "cantidad": "9",
+      "medida": "MG",
+      "concentracion": "20",
+      "presentacion": "CAJA X 10 CAP",
+      "id": 35
+    },
+    {
+      "nombre": "GENTAMICINA",
+      "categoria": "Antibióticos",
+      "imagen": "../img/GENTAMICINA.webp",
+      "codigo": "036GENta",
+      "precio": "6950",
+      "cantidad": "10",
+      "medida": "MG",
+      "concentracion": "80",
+      "presentacion": "CAJA X 1 AMPOLLA",
+      "id": 36
+    },
+    {
+      "nombre": "ERICOX",
+      "categoria": "Antiinflamatorio",
+      "imagen": "../img/ERICOX.webp",
+      "codigo": "037ERIco",
+      "precio": "30000",
+      "cantidad": "10",
+      "medida": "MG",
+      "concentracion": "30",
+      "presentacion": "CAJA X 10 TAB",
+      "id": 37
+    },
+    {
+      "nombre": "CARVEDILOL",
+      "categoria": "Antiinflamatorio",
+      "imagen": "../img/CARVEDILOL.webp",
+      "codigo": "038CARve",
+      "precio": "19600",
+      "cantidad": "7",
+      "medida": "MG",
+      "concentracion": "125",
+      "presentacion": "CAJA X 30 TAB",
+      "id": 38
+    },
+    {
+      "nombre": "BISBACTER",
+      "categoria": "Antidiarreicos",
+      "imagen": "../img/BISBACTER.webp",
+      "codigo": "038BISba",
+      "precio": "25500",
+      "cantidad": "8",
+      "medida": "MG",
+      "concentracion": "262",
+      "presentacion": "CAJA X 20 TAB",
+      "id": 39
+    },
+    {
+      "nombre": "CEFUROXIMA",
+      "categoria": "Antibióticos",
+      "imagen": "../img/CEFUROXIMA.webp",
+      "codigo": "040CEFur",
+      "precio": "40000",
+      "cantidad": "9",
+      "medida": "MG",
+      "concentracion": "500",
+      "presentacion": "CAJA X 10 TAB",
+      "id": 40
+    },
+    {
+      "nombre": "CLARITROMICINA",
+      "categoria": "Antiinfecciosos",
+      "imagen": "../img/CLARITROMICINA.webp",
+      "codigo": "041CLAri",
+      "precio": "45000",
+      "cantidad": "7",
+      "medida": "MG",
+      "concentracion": "500",
+      "presentacion": "CAJA X 10 TAB",
+      "id": 41
+    },
+    {
+      "nombre": "KLARICID",
+      "categoria": "Antiinfecciosos",
+      "imagen": "../img/KLARICID.webp",
+      "codigo": "042KLAri",
+      "precio": "150000",
+      "cantidad": "5",
+      "medida": "ML",
+      "concentracion": "50",
+      "presentacion": "FRASCO X 100ML",
+      "id": 42
+    },
+    {
+      "nombre": "KLAMICINA",
+      "categoria": "Antiinfecciosos",
+      "imagen": "../img/KLAMICINA.webp",
+      "codigo": "043KLAmi",
+      "precio": "34450",
+      "cantidad": "5",
+      "medida": "MG",
+      "concentracion": "500",
+      "presentacion": "CAJA X 10 TAB",
+      "id": 43
+    },
+    {
+      "nombre": "CLORMICIN",
+      "categoria": "Antiinfecciosos",
+      "imagen": "../img/CLORMICIN.webp",
+      "codigo": "044CLOrm",
+      "precio": "73000",
+      "cantidad": "7",
+      "medida": "MG",
+      "concentracion": "500",
+      "presentacion": "CAJA X 10 TAB",
+      "id": 44
+    },
+    {
+      "nombre": "ADVIL MAX",
+      "categoria": "Antiinflamatorio",
+      "imagen": "../img/ADVIL MAX.webp",
+      "codigo": "045ADVil",
+      "precio": "20000",
+      "cantidad": "3",
+      "medida": "MG",
+      "concentracion": "400",
+      "presentacion": "CAJA X 10 CAP",
+      "id": 45
+    },
+    {
+      "nombre": "ADVIL CHILDREN",
+      "categoria": "Antiinflamatorio",
+      "imagen": "../img/ADVIL CHILDREN.webp",
+      "codigo": "046ADVil",
+      "precio": "32150",
+      "cantidad": "5",
+      "medida": "ML",
+      "concentracion": "20",
+      "presentacion": "FRASCO X 100ML",
+      "id": 46
+    },
+    {
+      "nombre": "ADVIL FEM",
+      "categoria": "Antiinflamatorio",
+      "imagen": "../img/ADVIL FEM.webp",
+      "codigo": "047ADVil",
+      "precio": "20100",
+      "cantidad": "6",
+      "medida": "MG",
+      "concentracion": "400",
+      "presentacion": "CAJA X 10 TAB",
+      "id": 47
+    },
+    {
+      "nombre": "TRAZODONA",
+      "categoria": "Analgésicos",
+      "imagen": "../img/TRAZODONA.webp",
+      "codigo": "048TRAzo",
+      "precio": "56000",
+      "cantidad": "9",
+      "medida": "MG",
+      "concentracion": "50",
+      "presentacion": "CAJA X 50 TAB",
+      "id": 48
+    },
+    {
+      "nombre": "ZINNAT",
+      "categoria": "Antibióticos",
+      "imagen": "../img/ZINNAT.webp",
+      "codigo": "049ZINna",
+      "precio": "42600",
+      "cantidad": "8",
+      "medida": "MG",
+      "concentracion": "500",
+      "presentacion": "CAJA X 10 TAB",
+      "id": 49
+    },
+    {
+      "nombre": "DOLEX NINOS",
+      "categoria": "Analgésicos",
+      "imagen": "../img/DOLEX NINOS.webp",
+      "codigo": "050DOLex",
+      "precio": "24200",
+      "cantidad": "3",
+      "medida": "ML",
+      "concentracion": "50",
+      "presentacion": "FRASCO X 120ML",
+      "id": 50
     }
   ]
 }

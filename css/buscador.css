@@ -1,0 +1,125 @@
+.table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid purple;
+    text-align: center;
+    /* background-color: #ff33cc; */
+}
+
+  
+  th,
+  td {
+    padding: 0.5rem;
+    border: 1px solid purple;
+  }
+/* 
+  tbody tr:nth-child(odd) {
+    background-color: #b9cbee;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #798eeb;
+  } */
+ 
+  .formulario-buscar{
+    margin: 3em 0rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+
+  }
+
+  .campo{
+    display: inline-block;
+  }
+
+  .campo label{  
+   font-size: 1.3rem;
+   color: rgb(83, 83, 83);
+  
+  }
+
+  .campo input,select{
+    width: 12rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    margin: 0.5rem 0.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid rgb(176, 177, 175);
+   }
+
+  .botones-filtros{
+    text-align: center;
+  }
+.botones{
+  padding: 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+ .btn-buscar{
+  
+  transition-property: background-color;
+  transition-duration: 300ms;
+  background-color:rgb(58, 95, 165);;
+  }
+
+.btn-buscar:hover{
+  background-color:rgb(30, 74, 155);
+}
+
+.btn-limpiar-filtros{
+ 
+  transition-property: background-color;
+  transition-duration: 300ms;
+  background-color: rgb(131, 131, 131);
+ 
+}
+
+.btn-limpiar-filtros:hover{
+  background-color: rgb(180, 178, 178);
+}
+
+.volver-medicine{
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 300ms;
+  background-color: rgb(8, 131, 8);
+}
+
+.volver-medicine:hover{
+  background-color: rgb(5, 85, 5);
+}
+
+.Limpiar-busqueda{
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 300ms;
+  background-color: rgb(197, 13, 0);
+}
+
+.Limpiar-busqueda:hover{
+  background-color: rgb(128, 10, 2);
+ 
+}
+
+.ocultar{
+  display: none;
+}
+
+.spinner-load{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.noEncuentraDatos{
+  text-align: center;
+}
